@@ -1,0 +1,127 @@
+*
+{
+    margin:0;
+}
+
+body
+{
+    background-color: #fa824b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Section */
+
+header
+{
+    padding: 1em;
+    text-align: center;
+}
+
+header img
+{
+    display: inline-block;
+
+}
+
+header h1
+{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Brush Script MT';
+    font-size: 100px;
+}
+
+/* Navigation */
+nav
+{
+    background-color: #222;
+    text-align: center;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Big ol image */
+.desk
+{
+    width: 100%;
+    background-image: url(images/showcase.jpg);
+    min-height:400px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 350%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Main Blocks */
+
+main
+{
+    background-color: #eee;
+}
+
+.blockwelcome
+{
+    display: inline-block;
+    width: 60%;
+    padding: 10px;
+}
+
+.button
+{
+    margin: 15px;
+    padding:15px;
+    background-color: #fa824b;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.blockdark
+{
+    background-color: #222;
+    width: 30%;
+    padding: 10px;
+    float: right;
+    color: #fff;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.blocks
+{
+    width: 90%;
+    padding: 0 5%;
+}
+
+.block
+{
+    display:inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 0 1%;
+}
+
+/* Footer */
+
+footer
+{
+    background-color: #222;
+    padding: 50px;
+    text-align: center;
+    color: #fff
+}

@@ -1,0 +1,137 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #3f2860;
+    color: #3f2860;
+    line-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main
+{
+    background-color: #f5f5f5;
+    color: #3f2860;
+    line-height: 130%;
+    /* padding: top:1em, right:2em, bottom:0em, left:2em */
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    margin-left: 170px;
+}
+
+#wrapper
+{
+    background-color: #f5f5f5;
+    /*Lab wanted these values*/
+    /*  min-width: 1200px;
+    max-width: 1480px; */
+    /*but I like this better*/
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header
+{
+    background-image: url(images/lilyheader.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #9bc1c2;
+    height: 150px;
+}
+
+h1
+{
+    padding: 50px 0 0 2em ;
+}
+
+nav
+{
+    line-height: 100%;
+    width:150px;
+    float:left;
+}
+nav a
+{
+    text-align: center;
+    font-weight: bold;
+    font-style: normal; 
+    text-decoration: none;
+    display: block;
+    border: 3px  outset #cccccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color:#3f2860;
+}
+
+nav a:visited
+{
+    color:#497777;
+}
+
+nav a:hover
+{
+    color:#a26100;
+    border:3px inset #333333;
+}
+
+.studio
+{
+    font-style: italic;
+}
+
+footer
+{
+    padding: 1em;
+    background-color: #9bc1c2;
+    font-size: 0.7em;
+    font-style: italic;
+    text-align: center;
+}
+
+img
+{
+    padding: 0 1em 0 1em;
+}
+
+.floatleft
+{
+    margin-right: 4em;
+    float:left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.mat
+{
+    width:750px;
+    height:200px;
+    background-image: url(images/yogamat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lounge
+{
+    width:750px;
+    height:200px;
+    background-image: url(images/yogalounge.jpg);
+    background-position: center;
+    background-size: cover;
+}
