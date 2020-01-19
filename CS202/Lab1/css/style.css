@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700'); 
+
+*
+{
+    box-sizing: border-box;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+body
+{
+    background-color: #F4F4F4;
+    margin: 0px;
+    padding: 0px;
+    font: 20px/1.5 ‘Nunito’, sans-serif;
+}
+
+header
+{
+    position: absolute; 
+    top: 0px; 
+    /* Modified this to fit nicer */
+    left: 10%; 
+    width: 90%;
+    z-index: 5;
+}
+
+header .logo
+{
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 700;
+    color: white;
+}
+
+header div .logo
+{
+    float: left;
+    padding: 1em 3.5em 1em 0.5em;
+}
+
+header nav
+{
+    background-color: rgb(0,0,0,0);
+   /* Honestly i don't know what !important is for... */
+}
+
+
+nav a
+{
+    padding: 1em 2.5em;
+    display: inline-block;
+    color: white;
+}
+
+nav a:hover
+{
+    /* Added hover functionality */
+    padding: 0em 2.5em;
+    font-size: larger;
+}
+
+a
+{
+    transition: .3s all ease;
+    -webkit-transition: -o -transition;
+    text-decoration: none;
+}
+
+.heroimage
+{
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-padding
+{
+    padding: 0em 7em;
+}
+
+.sideleft
+{
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+.sideright
+{
+    width: 60%;
+    float: right;
+}
+
+.heading
+{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.sub-heading
+{
+    transform: uppercase;
+    font-size: 12px;
+    color: gray;
+    letter-spacing: .1em;
+}
+
+.button
+{
+    background-color: #697e83;
+    transition: .3s all ease;    
+    padding: 12px 30px;
+    margin-top: 1em;    
+    text-transform: uppercase;    
+    letter-spacing: .15em;    
+    color: #fff;    
+    border:  none;    
+    cursor: pointer;
+}
+
+.button:hover
+{
+    color: #697e83;
+    background-color: white;
+    border: 2px solid #697e83;
+}
+
+.bg-color
+{
+    background-color: #F8F9FA !important;
+}
+
+.feature
+{
+    text-align: center;
+}
+
+.feature-image
+{
+    position: relative;
+}
+
+.feature-image img
+{
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+}
+
+.newsletter
+{
+    padding: 2em; 
+    color: white; 
+    background: #35424a;
+    overflow: hidden;
+}
+
+.newsletter h1
+{
+    /* removed the top margin because it lines up */
+    margin-top: 0;
+    float: left;
+    padding-top: 0.6em;
+}
+
+.newsletter form
+{
+    float: right;
+    margin: 10px;
+}
+
+.newsletter input[type="email"]
+{
+    padding: 12px 30px;
+    height:2.7em;
+    width:250px;
+}
+
+.footer
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.footer p
+{
+    width: 70%;
+    margin: auto;
+}
+
+.main-footer
+{
+    padding: 4em 0em 0.9em 0em;
+    background-color: #F2F2F2;
+}
+
+.copyright
+{
+    text-align: center;
+}
+
+.rooms-pic-1
+{    
+    max-width: 30%;    
+    display: inline-block;    
+    position: relative;    
+    overflow: hidden;    
+    padding: 0 1em;  
+}
+
+.rooms-pic-1 figure
+{
+    float: left;
+}
+
+.rooms-body
+{
+    background: white !important; 
+    padding: 30px;
+    border: 1px solid #E6E6E6;
+    border-top: none;
+}
+
+figure .img
+{
+    max-width: 100%;
+    height: auto;
+}
